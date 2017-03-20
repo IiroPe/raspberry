@@ -75,7 +75,7 @@ while(1):
         if uid is None:
                 continue
         scan_database()
-        print 'Found card with UID: 0x{0}'.format(binascii.hexlify(uid))
+        print ('Found card with UID: 0x{0}'.format(binascii.hexlify(uid)))
         if __name__ == '__main__':
                 MyApp().run()
         break
